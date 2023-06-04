@@ -1,18 +1,19 @@
-# Framework7-Vue3-Minimal Template
+# Japanese Sign Language Interpreter
 
-## Start Project
+Mobile application developed using Vue3, Monaca, Framework 7 and Teachable Machine, which recognises gestures from the Japanese Sign Language and converts them to Japanese text, with the possibility of translating them into English or Spanish.
 
-Run `monaca preview` to preview the app.
+This app is based on a template found here:
+[framework7-vue3-minimal](https://github.com/monaca-templates/framework7-vue3-minimal)
 
-## WebPack
+### Tutorial
 
-There is a webpack bundler setup. It compiles and bundles all "front-end" resources. You should work only with files located in `/src` folder. Webpack config located in `script/webpack.config.js`.
+There is a tutorial available in Medium: [Create a simple Sign Language Recognition App using Teachable Machine, Monaca, Vue.js and Framework7](https://medium.com/p/31072c2456a4)
 
-Webpack has specific way of handling static assets (CSS files, images, audios). You can learn more about correct way of doing things on [official webpack documentation](https://webpack.js.org/guides/asset-management/).
+### How to use
 
+1. Fork or download the repository.
+3. Start the server locally with `npm run start`, or using Monaca.
 
-## Documentation & Resources
+### Testing
 
-* [Framework7 Core Documentation](https://framework7.io/docs/)
-* [Framework7 Vue Documentation](https://framework7.io/vue/)
-* [Vue3 Documentation](https://v3.vuejs.org/guide/introduction.html)
+You need to build a [custom Monaca Debugger](https://en.docs.monaca.io/products_guide/debugger/installation/debugger_ios#building-a-custom-monaca-debugger) which contains [CanvasCamera](https://www.npmjs.com/package/com.virtuoworks.cordova-plugin-canvascamera) plugin.
